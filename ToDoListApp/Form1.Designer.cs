@@ -61,6 +61,7 @@
             monthCalendar1.Name = "monthCalendar1";
             monthCalendar1.TabIndex = 2;
             monthCalendar1.DateChanged += monthCalendar1_DateChanged;
+            this.BackColor = Color.LightBlue;
             // 
             // button1
             // 
@@ -71,6 +72,7 @@
             button1.Text = "Dodaj";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+            button1.BackColor = Color.LightPink;
             // 
             // button2
             // 
@@ -81,6 +83,7 @@
             button2.Text = "Obrisi";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
+            button2.BackColor = Color.LightPink;
             // 
             // listBox1
             // 
