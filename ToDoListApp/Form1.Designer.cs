@@ -46,6 +46,7 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(180, 23);
             comboBox1.TabIndex = 0;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // textBox1
             // 
@@ -59,6 +60,7 @@
             monthCalendar1.Location = new Point(31, 120);
             monthCalendar1.Name = "monthCalendar1";
             monthCalendar1.TabIndex = 2;
+            monthCalendar1.DateChanged += monthCalendar1_DateChanged;
             // 
             // button1
             // 
@@ -68,6 +70,7 @@
             button1.TabIndex = 3;
             button1.Text = "Dodaj";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -130,6 +133,7 @@
             Controls.Add(comboBox1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
